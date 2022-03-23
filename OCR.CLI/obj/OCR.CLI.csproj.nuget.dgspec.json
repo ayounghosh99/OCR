@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Technovert_Work\\OCRRepo\\OCR.CLI\\OCR.CLI.csproj": {}
+  },
+  "projects": {
+    "C:\\Technovert_Work\\OCRRepo\\OCR.CLI\\OCR.CLI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Technovert_Work\\OCRRepo\\OCR.CLI\\OCR.CLI.csproj",
+        "projectName": "OCR.CLI",
+        "projectPath": "C:\\Technovert_Work\\OCRRepo\\OCR.CLI\\OCR.CLI.csproj",
+        "packagesPath": "C:\\Users\\ayoun.g\\.nuget\\packages\\",
+        "outputPath": "C:\\Technovert_Work\\OCRRepo\\OCR.CLI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ayoun.g\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Technovert_Work\\OCR\\OCR\\OCR.csproj": {
+                "projectPath": "C:\\Technovert_Work\\OCR\\OCR\\OCR.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "MimeTypes": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.18, 3.1.18]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Technovert_Work\\OCR\\OCR\\OCR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Technovert_Work\\OCR\\OCR\\OCR.csproj",
+        "projectName": "OCR",
+        "projectPath": "C:\\Technovert_Work\\OCR\\OCR\\OCR.csproj",
+        "packagesPath": "C:\\Users\\ayoun.g\\.nuget\\packages\\",
+        "outputPath": "C:\\Technovert_Work\\OCR\\OCR\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ayoun.g\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
